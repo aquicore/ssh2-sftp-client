@@ -1295,7 +1295,10 @@ If you just want to see debug messages from `ssh2-sftp-client` and exclude debug
 
 Please log an issue for all bugs, questions, feature and enhancement requests. Please ensure you include the module version, node version and platform.
 
-I am happy to try and help diagnose and fix any issues you encounter while using the `ssh2-sftp-client` module. However, I will only put in effort if you are prepared to put in the effort to provide the information necessary to reproduce the issue. Things which will help
+
+### Log
+#### V2.2.0
+    - add `fastGet` and `fastPut` method.
 
 -   Node version you are using
 -   Version of ssh2-sftp-client you are using
