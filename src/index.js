@@ -120,7 +120,6 @@ SftpClient.prototype.get = function(path, useCompression, encoding, otherOptions
                 stream.on('readable', () => {
                     let chunk;
                     while (null !== (chunk = stream.read())) {
-                        console.log('chunk: ', chunk);
                         data.push(chunk);
                     }
                 });
