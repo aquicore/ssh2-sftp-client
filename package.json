@@ -1,42 +1,28 @@
 {
   "name": "ssh2-sftp-client",
-  "version": "7.0.0",
+  "version": "2.3.0",
   "description": "ssh2 sftp client for node",
   "main": "src/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/theophilusx/ssh2-sftp-client"
+    "url": "https://github.com/jyu213/ssh2-sftp-client"
   },
-  "keywords": ["sftp", "nodejs", "promises"],
-  "scripts": {
-    "test": "mocha",
-    "coverage": "nyc npm run test",
-    "lint": "eslint \"src/**/*.js\" --quiet"
-  },
-  "author": "Tim Cross",
-  "email": "theophilusx@gmail.com",
-  "contributors": [
-    {
-      "name": "见见 (original author)",
-      "email": "jyu213@gmail.com"
-    }
+  "keywords": [
+    "sftp",
+    "nodejs"
   ],
-  "license": "Apache-2.0",
+  "scripts": {
+    "test": "mocha test/index.js"
+  },
+  "author": "见见",
+  "email": "jyu213@gmail.com",
+  "license": "MIT",
   "dependencies": {
-    "concat-stream": "^2.0.0",
-    "promise-retry": "^2.0.1",
-    "ssh2": "^1.1.0"
+    "ssh2": "^0.5.5"
   },
   "devDependencies": {
-    "chai": "^4.2.0",
-    "chai-as-promised": "^7.1.1",
-    "chai-subset": "^1.6.0",
-    "checksum": "^0.1.1",
-    "dotenv": "^10.0.0",
-    "mocha": "^9.0.2",
-    "moment": "^2.29.1",
-    "nyc": "^15.1.0",
-    "through2": "^4.0.2",
-    "winston": "^3.3.3"
+    "chai": "^3.5.0",
+    "chai-subset": "^1.2.1",
+    "mocha": "2.4.5"
   }
 }
